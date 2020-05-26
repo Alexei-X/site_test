@@ -1,0 +1,216 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+a{
+	color: black;
+}
+body{
+	background-image: url("images/background.jpg"); 
+	background-color: #cccccc;  
+	background-size: cover; 
+}
+.topsite{
+	margin-top: 0%;
+	height: 200px;
+	width: 100%;
+	background-color: white;
+	opacity: 70%;
+}
+
+#titrePrincipal{
+	text-align: center;
+	padding-top: 30px;
+	font-size: 55px;
+	font-family: garamond;
+	letter-spacing: 5px;
+	text-shadow: 2px 1px grey;
+}
+
+#titrePrincipal::hover{
+	font-size: 65px;
+}
+#titleUnderline{
+	width: 20%;
+	margin-left: 40%;
+
+}
+
+#undertitle{
+	text-align: center;
+}
+
+#contactTitle{
+	position: absolute;
+	top: 5%;
+	left: 3%;
+	font-size: 25px;
+}
+
+#phone{
+	position: absolute;
+	top: 11%;
+	left: 8%;
+}
+
+#house{
+	position: absolute;
+	top: 11%;
+	left: 12%;
+}
+
+#mail{
+	position: absolute;
+	top:11%;
+	left: 16%;
+}
+
+.leftpart{
+	position: absolute;
+	left: 2%;
+	top: 30%;
+	height: 70%px;
+	width: 53%;
+	background-color: white;
+	opacity: 70%;
+	border-radius: 15px;
+}
+
+.presentation{
+	width: 50%;
+	text-align: justify;
+}
+
+#presentationTitle{
+	font-size: 120%;
+	margin: 10px;
+	font-family: unset;
+	background-color: white;
+}
+
+#tarif{
+	position: absolute;
+	font-family: courier;
+	font-size: 35px;
+	left: 55%;
+	top: 5%;
+}
+
+#tarifPrem{
+	position: absolute;
+	font-size: 25px;
+	top: 20%;
+	left: 60%;
+}
+
+#autre{
+	position: absolute;
+	font-size: 25px;
+	top: 40%;
+	left: 65%;
+}
+
+#enfetado{
+	position: absolute;
+	font-size: 25px;
+	top: 60%;
+	left: 70%;
+}
+.image{
+	position: absolute;
+	right: 0%;
+}
+.smokepart{
+	position: absolute;
+	top: 95%;
+	left: 3%;
+	height: 20%;
+	width: 20%;
+	background-color: white;
+	opacity: 70%;
+	border-radius: 15px;
+}
+#smokeimg{
+	position: absolute;
+	height: 30%;
+	left: 35%;
+	top: 5%;
+}
+.smokepres{
+	width: 100%;
+	text-align: justify;
+}
+#smoketext{
+	position: absolute;
+	font-size: 140%;
+	top: 40%;
+	text-align: justify;
+	background-color: white;
+	padding: 5px;
+	border-radius: 15px;
+}
+.weightpart{
+	position: absolute;
+	top: 95%;
+	left: 40%;
+	height: 20%;
+	width: 20%;
+	background-color: white;
+	opacity: 70%;
+	border-radius: 15px;
+}
+#weightImage{
+	position: absolute;
+	height: 32%;
+	left: 40%;
+	top: 5%;
+}
+#weighttext{
+	position: absolute;
+	font-size: 140%;
+	top: 40%;
+	padding: 5px;
+	text-align: justify;
+	background-color: white;
+	border-radius: 15px;
+}
+.phobiespart{
+	position: absolute;
+	top: 95%;
+	left: 77%;
+	height: 20%;
+	width: 20%;
+	background-color: white;
+	opacity: 70%;
+	border-radius: 15px;
+}
+#phobiesImage{
+	position: absolute;
+	height: 33%;
+	left: 40%;
+	top: 5%;
+}
+#phobiestext{
+	position: absolute;
+	font-size: 140%;
+	top: 40%;
+	padding: 5px;
+	text-align: justify;
+	background-color: white;
+	border-radius: 15px;
+}
+.footer{
+	position: absolute;
+	font-size: 10px;
+	top: 130%;
+	height: 7%;
+	width: 100%;
+	background-color: #585858;
+	opacity: 80%;
+}
+#sources{
+	font-size: 190%;
+}
+.icons{
+	font-size: 20px;
+}
